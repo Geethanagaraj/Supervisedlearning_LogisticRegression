@@ -21,4 +21,9 @@ y_pred = model.predict(x_test)
 
 #step 6
 accuracy = accuracy_score(y_test, y_pred)
+print("Accuracy:", accuracy_score)
+
+#step 7
+conf_matrix = confusion_matrix(y_test, y_pred)
+print("Confusion matrix :\n", conf_matrix)
 
