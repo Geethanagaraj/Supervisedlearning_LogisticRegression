@@ -16,3 +16,6 @@ x_train, x_test, y_train, y_test = train_test_split(test_size = 0.2, random_stat
 model = LogisticRegression(max_iter = 5000)
 model.fit(x_train, y_train)
 
+#step 5
+y_pred = model.predict(x_test)
+
