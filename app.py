@@ -10,7 +10,7 @@ x = data.data
 y = data.target
 
 #step 3
-x_train, x_test, y_train, y_test = train_test_split(test_size = 0.2, random_state = 42)
+x_train, x_test, y_train, y_test = train_test_split(x, y, test_size = 0.2, random_state = 42)
 
 #step 4
 model = LogisticRegression(max_iter = 5000)
