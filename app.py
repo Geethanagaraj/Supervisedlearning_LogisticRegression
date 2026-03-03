@@ -7,7 +7,7 @@ from sklearn.metrics import accuracy_score, confusion_matrix
 #step 2
 data = load_breast_cancer()
 x = data.data
-y = data.targer
+y = data.target
 
 #step 3
 x_train, x_test, y_train, y_test = train_test_split(test_size = 0.2, random_state = 42)
