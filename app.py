@@ -19,3 +19,6 @@ model.fit(x_train, y_train)
 #step 5
 y_pred = model.predict(x_test)
 
+#step 6
+accuracy = accuracy_score(y_test, y_pred)
+
